@@ -1,0 +1,163 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navigation {
+    padding: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-brand-2 {
+    font-weight: bold;
+}
+
+.nav-brand {
+    position: absolute;
+    left: 200px;
+}
+
+.nav-brand-2 {
+    position: absolute;
+    right: 350px;
+    top: 22px;
+}
+
+.nav-brand a{
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+}
+
+.nav-brand-2 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.navigation .nav-pills {
+    text-align: center;
+    margin: 0.6rem 1rem;
+    position: absolute;
+    top: 18px;
+    left: 500px;
+}
+
+.navigation .link {
+    color: gray;
+}
+
+.navigation .link-active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content .image {
+    margin-top: 100px;
+    margin-left: 800px;
+    width: 30%;
+}
+
+.content .hmm {
+    color: gray;
+    margin-left: 200px;
+    margin-top: -300px;
+}
+
+h1 {
+    margin-left: 180px;
+}
+
+.content .hero {
+    font-family: Calibri;
+}
+
+.content .yupp .color {
+    color: rgb(255, 200, 0);
+}
+
+h5 {
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+}
+
+.content .d1{
+    margin-left: 180px;
+    margin-top: 0rem;
+    width: 35rem;
+    margin-bottom: 60px;
+    font-family: cursive;
+}
+
+.link-primary{
+    background-color: rgb(247, 207, 7);
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    color: black;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    margin-left: 200px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-primary2{
+    background-color: rgb(159, 139, 116);
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    color: white;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    font-weight: bolder; 
+    cursor: pointer;   
+}
+
+#mode-toggle{
+    cursor: pointer;
+}
+
+.end .last {
+    text-align: center;
+    margin-top: 120px;
+    font-family: Calibri;
+    font-size: 35px;
+}
+/* JAVA SCRIPT */
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+} 
+
+body.dark-mode .hero {
+    color: white;
+}
+
+body.dark-mode .para {
+    color: white;
+}
+
+body.dark-mode .link-primary {
+    color: white;
+}
+
+body.dark-mode .link-primary2 {
+    color: black;
+}
+
+body.dark-mode .navigation .link {
+    color: white;
+}
